@@ -1,3 +1,5 @@
+*This repository contains the source code of the Gibberish preprocessor for the [Creating a Preprocessor](https://foliant-docs.github.io/docs/tutorials/preprocessor/intro/) tutorial.*
+
 # Gibberish Preprocessor for Foliant
 
 This perprocessor allows to generate placeholder text in your Foliant projects.
