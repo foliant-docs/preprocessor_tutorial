@@ -2,11 +2,11 @@
 
 # Gibberish Preprocessor for Foliant
 
-This perprocessor allows to generate placeholder text in your Foliant projects.
+This preprocessor allows generating placeholder text in your Foliant projects.
 
 ## Installation
 
-> This section is for reference. The Gibberish preprocessor is now currently available in PyPi.
+> This section is for reference. The Gibberish preprocessor is currently not available in PyPi.
 
 ```bash
 $ pip install foliantcontrib.gibberish
@@ -14,14 +14,14 @@ $ pip install foliantcontrib.gibberish
 
 ## Config
 
-To enable the preprocessor, add `gibberish` to `preprocessors` section in the project config:
+To enable the preprocessor, add `gibberish` to the `preprocessors` section in the project config:
 
 ```yaml
 preprocessors:
     - gibberish
 ```
 
-The preprocessor has one option:
+The preprocessor has just one option:
 
 ```yaml
 preprocessors:
@@ -34,7 +34,7 @@ preprocessors:
 
 ## Usage
 
-To insert a placeholder text in your Markdown source, add the `gibberish` XML tag:
+To insert a placeholder text into your Markdown source, add the `gibberish` XML tag:
 
 ```html
 Here’s the placeholder text:
@@ -42,7 +42,7 @@ Here’s the placeholder text:
 <gibberish></gibberish>
 ```
 
-After applying the preprocessor it will replace the tag with placeholder text. The text will contain the number of sentences defined in `default_size` option.
+After applying the preprocessor it will replace the tag with placeholder text. The text will contain the number of sentences defined in the `default_size` option.
 
 ```html
 Here’s the placeholder text:
@@ -51,7 +51,7 @@ Yxz izyuo sjo iir tewo qvqc etosaeeuo iecaizaso aaeoeuo iyey. Apavaiqfu eqaaa ee
 
 ```
 
-If you want a different number of sentences in specific tag, add the `size` option
+If you want a different number of sentences in a specific tag, add the `size` option
 
 ```html
 Here’s the placeholder text:
